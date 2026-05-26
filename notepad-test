@@ -1249,7 +1249,7 @@ def rosybluetables():
                 os.startfile(output_filenameexcel)
             except:
                 pass
-            authhost = 'https://aip.baidubce.com/oauth/2.0/token?grant_type=client_credentials&client_id=3Z8rfvGzwhSOxKbqsX44bMAG&client_secret=mOMyxFOIyWq6tKUy6LWEWARtzhmD5vxP'
+            authhost = 'https://aip.baidubce.com/oauth/2.0/token?grant_type=client_credentials&client_id=3Z8rfvGzwhSOxKbqsX44bMAG&client_secret=m6LWEWARtzhmD5vxP'
             response_token = requests.get(authhost)
             token = response_token.json()['access_token']
             request_url = "https://aip.baidubce.com/rest/2.0/ocr/v1/table"
@@ -3256,8 +3256,8 @@ def chkcntxt():
         # d.SpellChecker("en_US") https://blog.csdn.net/hpulfc/article/details/80997252
         apiidchk='27213257'
         APIKey_wordchk = 'LkUF1O3NmssOQDB6RvnWkwy2'
-        secretKey_wordchk = "dC373FcA7o62rPQSHL1WI0WIgjD42nmO"
-        host = 'https://aip.baidubce.com/oauth/2.0/token?grant_type=client_credentials&client_id=LkUF1O3NmssOQDB6RvnWkwy2&client_secret=dC373FcA7o62rPQSHL1WI0WIgjD42nmO'
+        secretKey_wordchk = "dC3730WIgjD42nmO"
+        host = 'https://aip.baidubce.com/oauth/2.0/token?grant_type=client_credentials&client_id=LkUF1O3NmssOQDB6RvnWkwy2&client_secret=dCSHL1WI0WIgjD42nmO'
         response_token = requests.get(host)
         token = response_token.json()['access_token']
         print(token)
@@ -3349,7 +3349,7 @@ def toCn_old(): ##文本翻译 en到cn QWMT+BDE
     import dashscope
     try:
         appid = '20191219000367626'
-        secretKey = 'nRpvbOF3PgUaLXkaKrIi'
+        secretKey = 'nRaKrIi'
         httpClient = None
         myurl = '/api/trans/vip/translate'
 
@@ -3449,7 +3449,7 @@ def toCn_old(): ##文本翻译 en到cn QWMT+BDE
             textPad.insert('end', out2)
 
     '''appid = '20191219000367626'
-secretKey = 'nRpvbOF3PgUaLXkaKrIi'
+secretKey = 'nXkaKrIi'
     '''
 def toCht_bkp():# zh 2 zh_tw
     import dashscope
@@ -4182,7 +4182,7 @@ def toEn_old(): #文本翻译 cn到en QWMT+BDE
     import dashscope
     try:
         appid = '20191219000367626'
-        secretKey = 'nRpvbOF3PgUaLXkaKrIi'
+        secretKey = 'nRkaKrIi'
         httpClient = None
         myurl = '/api/trans/vip/translate'
 
@@ -4284,7 +4284,7 @@ def toJp_old():#短文本翻译 到jp zh 2 ja
     import dashscope
     try:
         appid = '20191219000367626'
-        secretKey = 'nRpvbOF3PgUaLXkaKrIi'
+        secretKey = 'nRpvrIi'
         httpClient = None
         myurl = '/api/trans/vip/translate'
 
@@ -4382,7 +4382,7 @@ def fromJp_old():#短文本jp翻译 到中文 ja 2 zh
     import dashscope
     try:
         appid = '20191219000367626'
-        secretKey = 'nRpvbOF3PgUaLXkaKrIi'
+        secretKey = 'nrIi'
         httpClient = None
         myurl = '/api/trans/vip/translate'
         content = textPad.get(1.0, END).replace('\n', '')
@@ -4467,7 +4467,7 @@ def fromJp_old():#短文本jp翻译 到中文 ja 2 zh
 
 def to_xiandai_old():#短文本wenyanwen翻译 到中文
     appid = '20191219000367626'
-    secretKey = 'nRpvbOF3PgUaLXkaKrIi'
+    secretKey = 'nRpvbOKrIi'
     httpClient = None
     myurl = '/api/trans/vip/translate'
     content = textPad.get(1.0, END).replace('\n', '')
@@ -4504,7 +4504,7 @@ def to_xiandai_old():#短文本wenyanwen翻译 到中文
         textPad.insert('end', out2)
 def to_wyw_old():#短文本翻译 到wenyanwen
     appid = '20191219000367626'
-    secretKey = 'nRpvbOF3PgUaLXkaKrIi'
+    secretKey = 'nRpvKrIi'
     httpClient = None
     myurl = '/api/trans/vip/translate'
     content = textPad.get(1.0, END).replace('\n', '')
@@ -4544,7 +4544,7 @@ def toCht_old():#短文本翻译 cn到cht zh 2 zh_tw
     import dashscope
     try:
         appid = '20191219000367626'
-        secretKey = 'nRpvbOF3PgUaLXkaKrIi'
+        secretKey = 'nRprIi'
         httpClient = None
         myurl = '/api/trans/vip/translate'
 
@@ -4642,7 +4642,7 @@ def fromCht_old():#短文本翻译cht 到cn zh_tw 2 zh
     import dashscope
     try:
         appid = '20191219000367626'
-        secretKey = 'nRpvbOF3PgUaLXkaKrIi'
+        secretKey = 'nRrIi'
         httpClient = None
         myurl = '/api/trans/vip/translate'
         content = textPad.get(1.0, END).replace('\n', '')
@@ -6587,7 +6587,7 @@ def qwttsz2mp3():
             '''
             showinfo('again', '字数太长，自动切换到长文本模式.要等三分钟出音频.')
             API_KEY = "kg69eOLdga6crQyX9rsS9ZyX"  # ak,控制台内创建app获取
-            SECRET_KEY = "0dTBblcFKX35VBIcZjK5jwB5gt6fa3mK"  # sk,控制台内创建app获取
+            SECRET_KEY = "0dTfa3mK"  # sk,控制台内创建app获取
             def filter_essay(text):  # 只保留中文 英语 数字 符号
                 pattern = r"[^a-zA-Z0-9\u4e00-\u9fa5\$\¥\.\,\;\:\!\?\(\)\[\]\{\}\"\'\/\-\+\*\%\=\@\#\%\&\<\>\《\》\_\\\。\、\，\！\？\：\——\；\“\‘\~\`\|\^\…\s]"
                 filtered_text = re.sub(pattern, '', text)
@@ -6672,9 +6672,9 @@ def qwttsz2mp3():
 def photo2cun():
     '''
     https://picwish.cn/ https://picwish.cn/my-account?subRoute=api-key
-    13671718724  Sykes12
-    抠图 左糖  32899487@qq.com
-    wx 1367171872
+    13671
+    抠图 左糖  3289
+    wx 1367
     '''
     # showinfo('提示', '选择一个照片，不能超过分辨率4096X4096.')
     oldpicPath = askopenfilename()
@@ -6971,8 +6971,8 @@ def ai2ppt_advnew(): #up file
                     return None
 
         APPId = "99e9468a"
-        APISecret = "NGZiMGY4ZDZlNTYyODllNTdmZmZhYTFl"
-        APIKey = "b171d8d52e4187e657baa93716305517"
+        APISecret = "NGZiMGYZmZhYTFl"
+        APIKey = "b17a93716305517"
 
         # 查询PPT主题列表
         # demo1 = AIPPT(APPId,APISecret,'','')
@@ -7252,8 +7252,8 @@ def ai2ppt_txtnew():
                     return None
 
         APPId = "99e9468a"
-        APISecret = "NGZiMGY4ZDZlNTYyODllNTdmZmZhYTFl"
-        APIKey = "b171d8d52e4187e657baa93716305517"
+        APISecret = "NGZiMdmZmZhYTFl"
+        APIKey = "b17193716305517"
 
         # 查询PPT主题列表
         # demo1 = AIPPT(APPId,APISecret,'','')
@@ -11265,7 +11265,7 @@ def create_tray_icon():
             if ret == 'yes':
                 print('yes kualie')
                 # bdocrtablev2()
-                authhost = 'https://aip.baidubce.com/oauth/2.0/token?grant_type=client_credentials&client_id=3Z8rfvGzwhSOxKbqsX44bMAG&client_secret=mOMyxFOIyWq6tKUy6LWEWARtzhmD5vxP'
+                authhost = 'https://aip.baidubce.com/oauth/2.0/token?grant_type=client_credentials&client_id=3Z8rfvGzwhSOxKbqsX44bMAG&client_secret=mOARtzhmD5vxP'
                 response_token = requests.get(authhost)
                 token = response_token.json()['access_token']
                 request_url = "https://aip.baidubce.com/rest/2.0/ocr/v1/table"
@@ -11610,8 +11610,8 @@ def dragged_files(files):
                 def basicAccurate(file):
                     from aip import AipOcr
                     APP_ID = '17746659'
-                    API_KEY = '3Z8rfvGzwhSOxKbqsX44bMAG'
-                    SECRET_KEY = 'mOMyxFOIyWq6tKUy6LWEWARtzhmD5vxP'
+                    API_KEY = '3Z8qsX44bMAG'
+                    SECRET_KEY = 'mOMyxFtzhmD5vxP'
                     aipOcr = AipOcr(APP_ID, API_KEY, SECRET_KEY)
                     options = {}
                     options["recognize_granularity"] = "small"
@@ -20711,9 +20711,9 @@ def tpzjfyksen2cnpl():#英语-中文 en to cn tp
     filenames = os.listdir(dirname)
 
     def gaoji2renhetpcnbd_pl2(filename, output_filename): #en to cn tp
-        # appid_tpfy = "27561117"                         #app name =tpzjfy
-        # APIKey_tpfy='4Uy87ZyeGqHb13Idl2NMB3Rj'
-        # secretKey_tpfy = "wsXjbIOiaVOFlDXZG8GQdSBaQ1hhGQog"
+        # appid_tpfy = "27517"                         #app name =tpzjfy
+        # APIKey_tpfy='4UyRj'
+        # secretKey_tpfy = "wsXjb1hhGQog"
         try:
             filefanyi = filename
             print(filefanyi)
