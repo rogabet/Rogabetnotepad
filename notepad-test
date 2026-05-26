@@ -2980,7 +2980,7 @@ def printer():
 def plmtqcsyz():
     workwhere2wzsbtxt = askdirectory(title='选择原件jpg png jpeg位置') + '/'
     workwhere3wzsbwbtp = askdirectory(title='选择输出图片位置') + '/'
-    API_KEYzt = 'wxup40qzcthlptbrd'
+    API_KEYzt = 'wxuplptbrd'
 
     def qcsyz_dan(filename, output_filename):
         IMAGE_FILE_PATH = filename
@@ -4808,7 +4808,7 @@ def duotucpdf2dantuqsy():
             self.root.geometry("400x300")
 
             # API密钥
-            self.API_KEY = 'wxup40qzcthlptbrd'
+            self.API_KEY = 'wxup40tbrd'
 
             # 创建界面
             self.create_widgets()
@@ -6678,7 +6678,7 @@ def photo2cun():
     '''
     # showinfo('提示', '选择一个照片，不能超过分辨率4096X4096.')
     oldpicPath = askopenfilename()
-    API_KEYzt = 'wxup40qzcthlptbrd'
+    API_KEYzt = 'wxulptbrd'
     IMAGE_FILE_PATH = oldpicPath
     def create_task():
         assert os.path.exists(IMAGE_FILE_PATH), f'Error: File({IMAGE_FILE_PATH}) does not exist.'
@@ -12877,7 +12877,7 @@ def yspicsfromxlsx():
     mediapicpath=r'C:\xlsxwork\xl\media'
     workwhere2wzsbtxt=mediapicpath
     workwhere3wzsbwbtp=mediapicpath
-    API_KEYzt = 'wxup40qzcthlptbrd'
+    API_KEYzt = 'wxuptbrd'
 
     def ztystp_dan(filename, output_filename):
         IMAGE_FILE_PATH = filename
@@ -13061,7 +13061,7 @@ def yspicsfromdocx():
     mediapicpath=r'C:\docxwork\word\media'
     workwhere2wzsbtxt=mediapicpath
     workwhere3wzsbwbtp=mediapicpath
-    API_KEYzt = 'wxup40qzcthlptbrd'
+    API_KEYzt = 'wxptbrd'
 
     def ztystp_dan(filename, output_filename):
         IMAGE_FILE_PATH = filename
@@ -13752,7 +13752,7 @@ def pdfimg2pdfstrzt2():
     from tkinter.filedialog import askopenfilename, asksaveasfilename
     import urllib.request
 
-    API_KEYzt = 'wxup40qzcthlptbrd'
+    API_KEYzt = 'wxuptbrd'
     image_path = askopenfilename(title='选一个pdf or jpg文件')
 
     def is_pdf(file_path):
@@ -14000,7 +14000,7 @@ def pdfimg2pdfstrztppt():
     import time
     from tkinter.filedialog import askopenfilename, asksaveasfilename
     import urllib.request
-    API_KEYzt = 'wxup40qzcthlptbrd'
+    API_KEYzt = 'wxuprd'
     # IMAGE_FILE_PATH = 'YOUR_IMAGE_FILE_PATH'
     image_path = askopenfilename(title='选一个pdf or jpg文件')
     def create_task():
@@ -14094,7 +14094,7 @@ def pdfimg2pdfstrztdocx():
     import time
     from tkinter.filedialog import askopenfilename, asksaveasfilename
     import urllib.request
-    API_KEYzt = 'wxup40qzcthlptbrd'
+    API_KEYzt = 'wxup4brd'
     # IMAGE_FILE_PATH = 'YOUR_IMAGE_FILE_PATH'
     image_path = askopenfilename(title='选一个pdf or jpg文件')
 
@@ -14187,7 +14187,7 @@ def pdfimg2pdfstrztxlsx():
     import time
     from tkinter.filedialog import askopenfilename, asksaveasfilename
     import urllib.request
-    API_KEYzt = 'wxup40qzcthlptbrd'
+    API_KEYzt = 'wxud'
     # IMAGE_FILE_PATH = 'YOUR_IMAGE_FILE_PATH'
     image_path = askopenfilename(title='选一个pdf or jpg文件')
 
@@ -23927,13 +23927,6 @@ textPad.bind('<Button-3>',popup)
 # root.protocol("WM_DELETE_WINDOW", hide_to_tray())
 root.mainloop()
 '''
-去除摩尔纹材料图片不超过4M
-去除水印底纹材料图片不超过4M
-去除手写材料图片不超过4M
-图片翻译不超过4M
-图片转word，图片不超过4M
-动物植物识别 4M
-ocr文字识别材料图片不超过10M
-表格识别v2图片 8M
+
   
 '''
