@@ -3315,7 +3315,7 @@ def chkcntxt():
         })
         headers = {
             'Content-Type': 'application/json',
-            'Authorization': 'Bearer bce-v3/ALTAK-Nll5JeJqY3bwhGrg3lgXr/552fbb2fba9f86b646eac227d3d327a544fad993'
+            'Authorization': 'Bearer bce-v3/ALTAK-Nll5JeJqY3fad993'
         }
         response = requests.request("POST", url, headers=headers, data=payload)
         wendawx45p = response.json()['choices'][0]['message']['content']
@@ -7572,7 +7572,7 @@ def webgogo():
         )
         headers = {
             'Content-Type': 'application/json',
-            'X-Appbuilder-Authorization': 'Bearer bce-v3/ALTAK-Nll5JeJqY3bwhGrg3lgXr/552fbb2fba9f86b646eac227d3d327a544fad993'
+            'X-Appbuilder-Authorization': 'Bearer bce-v3/'
         }
         response = requests.request("POST", url, headers=headers, data=payload)
         wendawx51p = response.json()['choices'][0]['message']['content'].replace('```html','')
@@ -8355,7 +8355,7 @@ def zuowenbd2wtj():
                 })
                 headers = {
                     'Content-Type': 'application/json',
-                    'Authorization': 'Bearer bce-v3/ALTAK-Nll5JeJqY3bwhGrg3lgXr/552fbb2fba9f86b646eac227d3d327a544fad993'
+                    'Authorization': 'Bearer bce-v3/'
                 }
                 response = requests.request("POST", url, headers=headers, data=payload)
                 wendawx45p = response.json()['choices'][0]['message']['content']
@@ -8436,7 +8436,7 @@ def zuowenbd2():#BD 4文心5
             )
             headers = {
                 'Content-Type': 'application/json',
-                'X-Appbuilder-Authorization': 'Bearer bce-v3/ALTAK-Nll5JeJqY3bwhGrg3lgXr/552fbb2fba9f86b646eac227d3d327a544fad993'
+                'X-Appbuilder-Authorization': 'Bearer bce-v3/'
             }
             response = requests.request("POST", url, headers=headers, data=payload)
             wendawx45p = response.json()['choices'][0]['message']['content'].replace('```html','')
@@ -8492,7 +8492,7 @@ def zuowenbd2():#BD 4文心5
             })
             headers = {
                 'Content-Type': 'application/json',
-                'Authorization': 'Bearer bce-v3/ALTAK-Nll5JeJqY3bwhGrg3lgXr/552fbb2fba9f86b646eac227d3d327a544fad993'
+                'Authorization': 'Bearer bce-v3/3'
             }
             response = requests.request("POST", url, headers=headers, data=payload)
             wendawx50p = response.json()['choices'][0]['message']['content'].replace('```html','')
@@ -8531,7 +8531,7 @@ def zuowenbd2():#BD 4文心5
     # })
     # headers = {
     #     'Content-Type': 'application/json',
-    #     'Authorization': 'Bearer bce-v3/ALTAK-Nll5JeJqY3bwhGrg3lgXr/552fbb2fba9f86b646eac227d3d327a544fad993'
+    #     'Authorization': 'Bearer bce-v3/3'
     # }
     # response = requests.request("POST", url, headers=headers, data=payload)
     # wendawx45p = response.json()['choices'][0]['message']['content']
