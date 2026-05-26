@@ -3187,7 +3187,7 @@ def swdtfenxi():
     zixun_title3 = oldwords
     import dashscope
     from dashscope import MultiModalConversation
-    dashscope.api_key = "sk-e5f18ed4322b4936ad474fe31d44ab23"
+    dashscope.api_key = "sk-e23"
 
     # 'content': cookiestextqw
     def call_stream_with_messages():
@@ -6529,7 +6529,7 @@ def qwttsz2mp3():
     def qwttsz2mp3_th():
         import dashscope
         try:
-            dashscope.api_key = "sk-e5f18ed4322b4936ad474fe31d44ab23"
+            dashscope.api_key = "sk-e4ab23"
 
             text = textPad.get(1.0, 'end')
             url = "https://dashscope.aliyuncs.com/api/v1/services/aigc/multimodal-generation/generation"
@@ -6546,7 +6546,7 @@ def qwttsz2mp3():
             headers = {
                 # 'X-DashScope-Async': 'enable',
                 'Content-Type': 'application/json',
-                'Authorization': 'Bearer sk-e5f18ed4322b4936ad474fe31d44ab23'
+                'Authorization': 'Bearer s4ab23'
             }
             response = requests.request("POST", url, headers=headers, data=payload)
             time.sleep(3)
@@ -8104,7 +8104,7 @@ def zuowssptswz2(): # pic 2 mp4
             promptsp=zixun_title3
             runingpb()
             import dashscope
-            dashscope.api_key = "sk-e5f18ed4322b4936ad474fe31d44ab23"
+            dashscope.api_key = "sk-e23"
 
             url = "https://dashscope.aliyuncs.com/api/v1/services/aigc/video-generation/video-synthesis"
             payload = json.dumps({
@@ -8138,7 +8138,7 @@ def zuowssptswz2(): # pic 2 mp4
             headers = {
                 'X-DashScope-Async': 'enable',
                 'Content-Type': 'application/json',
-                'Authorization': 'Bearer sk-e5f18ed4322b4936ad474fe31d44ab23'
+                'Authorization': 'Bearer s23'
             }
             response = requests.request("POST", url, headers=headers, data=payload)
             print(response.json()['output']['task_id'])
@@ -8148,7 +8148,7 @@ def zuowssptswz2(): # pic 2 mp4
             headers2 = {
                 'X-DashScope-Async': 'enable',
                 'Content-Type': 'application/json',
-                'Authorization': 'Bearer sk-e5f18ed4322b4936ad474fe31d44ab23'
+                'Authorization': 'Bearer sk-23'
             }
             response2 = requests.request("GET", url2, headers=headers2)  # headers=headers2
             print(response2.text)
@@ -8188,7 +8188,7 @@ def zuowssptswz2(): # pic 2 mp4
 #             base64_image = encode_image(image_path)
 #             runingpb()
 #             import dashscope
-#             dashscope.api_key = "sk-e5f18ed4322b4936ad474fe31d44ab23"
+#             dashscope.api_key = "sk-23"
 #             promptsp =zixun_title3
 #             url = "https://dashscope.aliyuncs.com/api/v1/services/aigc/video-generation/video-synthesis"
 #             payload = json.dumps({
@@ -8207,7 +8207,7 @@ def zuowssptswz2(): # pic 2 mp4
 #             headers = {
 #                 'X-DashScope-Async': 'enable',
 #                 'Content-Type': 'application/json',
-#                 'Authorization': 'Bearer sk-e5f18ed4322b4936ad474fe31d44ab23'
+#                 'Authorization': 'Bearer sk-e54ab23'
 #             }
 #             response = requests.request("POST", url, headers=headers, data=payload)
 #             print(response.json()['output']['task_id'])
@@ -8217,7 +8217,7 @@ def zuowssptswz2(): # pic 2 mp4
 #             headers2 = {
 #                 'X-DashScope-Async': 'enable',
 #                 'Content-Type': 'application/json',
-#                 'Authorization': 'Bearer sk-e5f18ed4322b4936ad474fe31d44ab23'
+#                 'Authorization': 'Bearer sk-eab23'
 #             }
 #             response2 = requests.request("GET", url2, headers=headers2)  # headers=headers2
 #             print(response2.text)
@@ -8245,7 +8245,7 @@ def zuowssptswz2(): # pic 2 mp4
 #             zixun_title3 = textPad.get(1.0, 'end')
 #             runingpb()
 #             import dashscope
-#             dashscope.api_key = "sk-e5f18ed4322b4936ad474fe31d44ab23"
+#             dashscope.api_key = "skab23"
 #             promptsp =zixun_title3
 #             url = "https://dashscope.aliyuncs.com/api/v1/services/aigc/video-generation/video-synthesis"
 #             payload = json.dumps({
@@ -8264,7 +8264,7 @@ def zuowssptswz2(): # pic 2 mp4
 #             headers = {
 #                 'X-DashScope-Async': 'enable',
 #                 'Content-Type': 'application/json',
-#                 'Authorization': 'Bearer sk-e5f18ed4322b4936ad474fe31d44ab23'
+#                 'Authorization': 'Bearer sk44ab23'
 #             }
 #             response = requests.request("POST", url, headers=headers, data=payload)
 #             print(response.json()['output']['task_id'])
@@ -8274,7 +8274,7 @@ def zuowssptswz2(): # pic 2 mp4
 #             headers2 = {
 #                 'X-DashScope-Async': 'enable',
 #                 'Content-Type': 'application/json',
-#                 'Authorization': 'Bearer sk-e5f18ed4322b4936ad474fe31d44ab23'
+#                 'Authorization': 'Bearer sk-ab23'
 #             }
 #             response2 = requests.request("GET", url2, headers=headers2)  # headers=headers2
 #             print(response2.text)
@@ -23383,7 +23383,7 @@ def rxstylechui():
 
     headers = {
         'X-DashScope-Async': 'enable',
-        'Authorization': 'Bearer sk-e5f18ed4322b4936ad474fe31d44ab23',
+        'Authorization': 'Bearer sk-44ab23',
         'Content-Type': 'application/json',
 
     }
@@ -23397,7 +23397,7 @@ def rxstylechui():
     url_ai = "https://dashscope.aliyuncs.com/api/v1/tasks/" + response.json()['output']['task_id']
 
     headers = {
-        'Authorization': 'Bearer sk-e5f18ed4322b4936ad474fe31d44ab23',
+        'Authorization': 'Bearer sk-ab23',
         'Content-Type': 'application/json',
         'Accept': 'application/json'
     }
@@ -23432,7 +23432,7 @@ def jubuchui():
 
     headers = {
         'X-DashScope-Async': 'enable',
-        'Authorization': 'Bearer sk-e5f18ed4322b4936ad474fe31d44ab23',
+        'Authorization': 'Bearer sk-e5f44ab23',
         'Content-Type': 'application/json',
 
     }
@@ -23446,7 +23446,7 @@ def jubuchui():
     url_ai = "https://dashscope.aliyuncs.com/api/v1/tasks/" + response.json()['output']['task_id']
 
     headers = {
-        'Authorization': 'Bearer sk-e5f18ed4322b4936ad474fe31d44ab23',
+        'Authorization': 'Bearer sk-ed44ab23',
         'Content-Type': 'application/json',
         'Accept': 'application/json'
     }
